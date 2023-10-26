@@ -224,7 +224,32 @@ The `flo` BUI is now available at several IP-adresses which are printed in the t
 
 ![flo_terminal](./images/flo_terminal.png)
 
-The
+The BUI will open up in a new browser tab in 'manual open loop' mode. Make sure the system behaves approriately when setting new values for PAN and TILT of the home position. Unexpected behviour may occur if the motor positions during assebly were not as specified.
 
 ![flo_bui](./images/flo_bui.png)
+
+### 5. configure `strand-cam`
+
+If not already running, open `strand-cam` in a new terminal. The `strand-cam` BUI should open up in a new browser tab.
+
+![strandcam BUI1](./images/strandcam-bui1.png)
+
+Scroll down to the `Camera Settings' section and adjust exposure to improve signal-to-noise ratio, i.e. the tracked object (e.g. bright LED) should be visible and the background dark.
+
+![strandcam BUI2](./images/strandcam_bui2.png)
+
+Next, go to the 'ImOps Detection' section and enable it. Set the `Center X` and `Center Y` fields to the center of your image in pixels (can be determined from the 'Live view' section). Finally, set the sensitvity `Threshold` to 200.
+
+In the 'Live view' window, there should now be a black circle which tracks the target. The ImOps data should now be broadcast to `flo`.
+
+![strandcam BUI3](./images/strandcam-bui3.png)
+
+### 6. run `flo` in closed loop mode
+
+Go back the `flo` browser tab and click the `Lock` button. The camera should now lock on to the target when it enters the field of view.
+
+
+
+
+
 
