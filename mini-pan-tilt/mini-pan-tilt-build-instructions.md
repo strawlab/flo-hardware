@@ -11,8 +11,8 @@ All parts but one, the custom 3D-printed support bracket _(CAD file included)_ a
 	- Hardware (in particular: 4x small black screws for servos, 1x black M1 screw with washer and nut for tilt axis, nylon rivets)
 
 	There seems to be the newer version of this kit, available [here](https://www.robotshop.com/products/lynxmotion-pan-and-tilt-kit-aluminium2).
-		
-- 1x [Thorlabs base plate 150x150x12.7 mm, M6 Taps](https://www.thorlabs.de/thorproduct.cfm?partnumber=MB1515/M) + 
+
+- 1x [Thorlabs base plate 150x150x12.7 mm, M6 Taps](https://www.thorlabs.de/thorproduct.cfm?partnumber=MB1515/M) +
 
 - 1x custom 3D printed support bracket (include file)
 
@@ -25,14 +25,14 @@ All parts but one, the custom 3D-printed support bracket _(CAD file included)_ a
 
 	- screws required for the camera adapter
 ### Electronics
-	
+
 - [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) microcontroller
 - optional: breadboard jumper wires
 
 ### Optical
 
 - Basler or Vimba high-framerate, USB 3.0 camera: highly recommended [Basler Ace2 a2a1920-160mBAS](https://www.baslerweb.com/en/shop/a2a1920-160umbas/)
-- CS-mount lens of desired specifications. Recommended for this basic setup: f=16mm A=1:1.6 
+- CS-mount lens of desired specifications. Recommended for this basic setup: f=16mm A=1:1.6
 - optional: IR-bandpass filter for better signal-to-noise ratio
 
 
@@ -41,7 +41,7 @@ All parts but one, the custom 3D-printed support bracket _(CAD file included)_ a
 ## Hardware build instruction
 
 1. Mount camera on "C" bracket :
-	- Attatch tripod adapter to base of camera 
+	- Attatch tripod adapter to base of camera
 	- Attatch "C" Bracket to Adapter
 
 ![Assembly step 1](./images/assembly1.png)
@@ -85,8 +85,8 @@ Each servo motor needs three connections to the microcontroller, representing
 - red: VCC (Power)
 - yellow: PWM, pulse (control)
 
-These need to be soldered to the pins of the RPi Pico as folows 
-- gpio7 (PIN10): PWM tilt 
+These need to be soldered to the pins of the RPi Pico as folows
+- gpio7 (PIN10): PWM tilt
 - gpio6 (PIN9): PWM pan
 - VBUS (PIN40): VCC of both servos
 - arbitrary GND pins:  GND of both servos
@@ -121,9 +121,9 @@ Install your camera drivers. Currently [Basler Pylon](https://docs.baslerweb.com
 
 Connect the USB 3.0 camera to your machine and make sure that the `pylon Viewer` app recognises the camera.
 
-Now you can install strand-cam  `version 0.12.0` or greater from https://github.com/strawlab/strand-braid. 
+Now you can install strand-cam  `version 0.12.0` or greater from https://github.com/strawlab/strand-braid.
 
-`strand-cam` can now be opened globally by running 
+`strand-cam` can now be opened globally by running
 
 ```sh
 strand-cam-pylon
@@ -151,7 +151,7 @@ cd flo-bui
 ```
 #### 2. Flashing firmware: PanTilt for RP-pico - Receive from USB (serial) and emit PWM for two servos
 
-The following instructions how to flash rust firmware onto the RPi Pico is based on [rp2040-project-template](https://github.com/rp-rs/rp2040-project-template). 
+The following instructions how to flash rust firmware onto the RPi Pico is based on [rp2040-project-template](https://github.com/rp-rs/rp2040-project-template).
 #### Installation of development dependencies
 
 ```sh
@@ -175,7 +175,7 @@ cargo install elf2uf2-rs --locked
 First, navigate to `path/to/flo/rpipico-pantilt/`, which contains the firmware for the Raspberry Pi Pico.
 
  _Step 1_ -  Make sure that the correct runner is specified in  `.cargo/config` to change the default runner to  `elf2uf2`. Look for the following lines and make sure the correct one is commented out.
-  
+
   ```
 [target.`cfg(all(target-arch = "arm", target_os = "none"))`]
 # runner = "probe-run --chip RP2024"
@@ -196,9 +196,9 @@ For a release build:
 cargo run --release
 ```
 
-### 3. configure `flo` 
+### 3. configure `flo`
 
-Navigate to `/path/to/flo/pan-tilt-pc`. 
+Navigate to `/path/to/flo/pan-tilt-pc`.
 
 The `config-mini.yaml` file contains the specific configuration for the Mini-Pan-Tilt setup. Depending on your choice of camera and lens, you might need to modifiy the following lines:
 
@@ -215,9 +215,16 @@ centroid_to_sensor_y_angle_func:
 ```
 ### 4. run `flo` in open loop
 
-Run flo with with the serial device and config file specified. Depending on your system, the path to the serial device might differ. In `flo/pan-tilt-pc/` run
+Run flo with with the serial device and config file specified. Depending on your system, the path to the serial device might differ. In `/path/to/flo/pan-tilt-pc/` run
 
 ```bash
 cargo run --release -- --pwm-serial /dev/serial/by-id/usb-Straw_Lab_Serial_port_TEST-if00 --device-config config-mini.yaml
 ```
+The `flo` BUI is now available at several IP-adresses which are printed in the terminal window. You can open the BUI by `ctrl`- click on the IPs.
+
+![flo_terminal](./images/flo_terminal.png)
+
+The
+
+![flo_bui](./images/flo_bui.png)
 
