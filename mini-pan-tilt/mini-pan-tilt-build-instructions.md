@@ -1,6 +1,6 @@
 # Build instructions and user manual for the proof-of-concept Mini-Pan-Tilt (MPT) version of the Fast-Lock-On (FLO) insect tracking system
 
-This manual will is a step-by-step guide to assemble a mini-pan-tilt setup from scratch and run it on a Linux machine.
+This manual is a step-by-step guide to assemble a mini-pan-tilt setup from scratch and run it on a Linux machine.
 
 ## Bill of Materials
 All parts but one, the custom 3D-printed support bracket _(CAD file included)_ are available as off-the-shelf components.
