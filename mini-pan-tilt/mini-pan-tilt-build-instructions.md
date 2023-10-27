@@ -136,17 +136,27 @@ The version most recent version of `flo` proven to work well with the Mini-Pan-T
 
 >[!attention] update to final github repo
 
+
+
 ```bash
 cd /path/to # <----change this to a suitable filesystem directory
 git clone https://gitlab.strawlab.org/straw/flo.git
 git fetch origin stereopsis
 git checkout 1588579
 ```
+**update:**  now also works with commit `3679849` on `gimbal` branch. If using that version, gimbal dependencies must be installed additionally: in `/path/to/` do
+
+```
+git clone https://gitlab.strawlab.org/victor/simplebgc-rs.git
+```
+
+
+
 
 Next, we need to build the browser user interface (BUI):
 
 ```shell
-cd flo-bui
+cd /path/to/flo/flo-bui
 ./build.sh
 ```
 #### 2. Flashing firmware: PanTilt for RP-pico - Receive from USB (serial) and emit PWM for two servos
