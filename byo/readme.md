@@ -46,6 +46,6 @@ For our beam source (2 boards of 6-series-2-parallel SFH4715AS LEDs), the maximu
 
 3) power the board from an adjustable power supply set to 9 V, and verify (with an oscilloscope) that you see 50-microsecond-wide pulses on the gate of the mosfet.
 
-4) connect an oscilloscope to the SMA connector on the board, and set the probe division ratio to 20x (because the sense resistor is 0.05 Ohms), and the unit to Amps.
+4) connect an oscilloscope to the SMA connector on the board with a coax cable, and set the probe division ratio to 20x (because the sense resistor is 0.05 Ohms), and the unit to Amps. (do not use 50-ohm termination on the scope).
 
 5) crank up the supply voltage until the current pulse amplitude reaches the wanted value (12 A). Write down the voltage.
