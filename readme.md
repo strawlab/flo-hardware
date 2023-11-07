@@ -1,5 +1,8 @@
 # Fast-Lock-On (FLO) hardware
 
+**CURRENTLY THIS MATERIAL IS CONFIDENTIAL AND FOR REVIEW PURPOSES ONLY. DO NOT
+DISTRIBUTE.**
+
 ## Mini-FLO
 
 A bare-minimum hardware
