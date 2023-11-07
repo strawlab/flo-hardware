@@ -8,7 +8,7 @@ Some 3d-printing models were done in FreeCAD 0.21.0.32457 (pre-release of v0.21)
 
 Other 3d-printing models were done in Autodesk Inventor.
 
-The 3d models of parts are also provided in STEP and STL formats; gcode files are sliced for Prusa i3 MK3 3d printer with 0.4mm nozzle.
+The 3d models of parts are also provided in STEP and STL formats
 
 # System description
 
