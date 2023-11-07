@@ -1,5 +1,8 @@
 # Fast-Lock-On (FLO) hardware
 
+"Fast Lock-On Tracking" by T. Thang Vo-Doan, Victor V. Titov, Michael J.M.
+Harrap, Stephan Lochner, Andrew D. Straw
+
 **CURRENTLY THIS MATERIAL IS CONFIDENTIAL AND FOR REVIEW PURPOSES ONLY. DO NOT
 DISTRIBUTE.**
 
