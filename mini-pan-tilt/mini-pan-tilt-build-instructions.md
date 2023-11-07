@@ -62,7 +62,7 @@ All parts but one, the custom 3D-printed support bracket _(CAD file included)_ a
 	- attatch Multi-Puropse bracket in parallel with the servo. Use small balck screws to attatch bracket to disk
 
 
-![Assembly step 2.2](./images/assembly3.png)
+![Assembly step 2.2](./images/assembly3.jpg)
 
 4. Mount tilt-servo:
 	- attatch one side of "C" bracket (with mounted camera) to the multi-purpose backet
@@ -70,13 +70,13 @@ All parts but one, the custom 3D-printed support bracket _(CAD file included)_ a
 	- **turn disk on tilt-servo to have '3' in top postition**
 	- attach loose end of "C" bracket  to disk. Make sure that the disk is in the right position!
 
-![Assembly Step 2.3](./images/assembly4.png)
+![Assembly Step 2.3](./images/assembly4.jpg)
 
 5. Mount on base plate:
 		- Attatch 3D printed support bracket to base plate with M6 screw
 		- attatch pan-servo to support bracket using M3 x 20 screws and nuts
 
-![Assembly Step 2.4](./images/assembly5.png)
+![Assembly Step 2.4](./images/assembly5.jpg)
 
 6. Mount desired lens on camera
 
