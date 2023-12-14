@@ -1,2 +1,0 @@
-* wrong pin numbers on led footprint => wrong polarity markings on connector pads
-* want circles for glue deposition
