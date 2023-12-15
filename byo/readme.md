@@ -24,9 +24,7 @@ Nominal exposure time is 50 microseconds, the default framerate is 150 Hz.
 
 ### beam source
 
-see [led-ring-v2](../led-ring-v2/readme.md)
-
-These rings were designed for a different setup, and don't quite fit on the cameras of the BYO setup because they are too close to each other. So we've cut these boards, and also left some LEDs unpopulated (pads must be shorted).
+These rings were designed for a different setup, and don't quite fit on the cameras of the BYO setup because they are too close to each other. So we've cut these boards, and also left some LEDs unpopulated. There is a pcb layout for the cut-down version, see `/led-ring-v2/led-ring-v2-cut`. The photo below shows the manually-cut variant of the full ring.
 
 ![cut beam source on byo system](byo-tracking-cameras-beam-source-cut.jpg)
 
