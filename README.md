@@ -34,3 +34,8 @@ The setup for filming flying bees carrying a retroreflective marker.
 [hardware description is in ./byo directory](./byo/readme.md)
 
 ![BYO-camera setup photo](<byo-whole(3).jpg>)
+
+## Other links
+
+- https://github.com/strawlab/red-button-trigger-timestamp hardware to record
+  times of external trigger events.
