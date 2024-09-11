@@ -1,0 +1,209 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device:C
+#
+DEF Device:C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device:C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# beetrax-components:LT1885
+#
+DEF beetrax-components:LT1885 U 0 20 Y Y 4 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "beetrax-components:LT1885" 150 -200 50 H V C CNN
+F2 "" -50 100 50 H V C CNN
+F3 "" 50 200 50 H V C CNN
+DRAW
+P 4 0 1 6 -200 200 200 0 -200 -200 -200 200 f
+X V- 11 -100 -300 150 U 50 50 0 1 W
+X V+ 4 -100 300 150 D 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X - 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+X + 10 -300 100 100 R 50 50 3 1 I
+X ~ 8 300 0 100 L 50 50 3 1 O
+X - 9 -300 -100 100 R 50 50 3 1 I
+X + 12 -300 100 100 R 50 50 4 1 I
+X - 13 -300 -100 100 R 50 50 4 1 I
+X ~ 14 300 0 100 L 50 50 4 1 O
+ENDDRAW
+ENDDEF
+#
+# beetrax-components:OPR5911
+#
+DEF beetrax-components:OPR5911 D 0 50 Y N 1 F N
+F0 "D" 0 300 50 H V C CNN
+F1 "beetrax-components:OPR5911" 0 -250 50 H V C CNN
+F2 "" 0 200 50 H V C CNN
+F3 "" 0 200 50 H V C CNN
+DRAW
+S -225 180 245 -175 0 1 0 f
+S 75 250 75 250 0 1 0 N
+S 75 250 75 250 0 1 0 N
+S 75 300 75 300 0 1 0 N
+P 2 0 1 0 -175 165 -140 135 N
+P 2 0 1 0 -150 -10 -115 -40 N
+P 2 0 1 0 -115 50 -80 90 N
+P 2 0 1 0 -90 -30 -40 -75 N
+P 2 0 1 0 0 0 200 -150 N
+P 2 0 1 0 0 0 200 150 N
+P 2 0 1 0 0 150 0 0 N
+P 2 0 1 0 30 135 65 105 N
+P 2 0 1 0 40 5 75 -25 N
+P 2 0 1 0 55 70 95 35 N
+P 2 0 1 0 90 -25 60 -75 N
+P 3 0 1 0 -200 -150 0 0 -200 150 N
+P 3 0 1 0 -150 130 -135 130 -140 140 N
+P 3 0 1 0 -125 -40 -110 -40 -115 -30 N
+P 3 0 1 0 55 100 70 100 65 110 N
+P 3 0 1 0 60 -20 75 -20 70 -10 N
+P 4 0 1 0 -160 80 -115 130 -100 75 -155 80 F
+P 4 0 1 0 -120 -60 -65 -50 -80 -105 -120 -55 F
+P 4 0 1 0 100 -100 130 -60 75 -55 95 -105 F
+P 4 0 1 0 100 100 135 65 75 55 95 105 F
+X ANODE_1 1 -350 150 150 R 50 50 1 1 P
+X ANODE_4 12 -350 -150 150 R 50 50 1 1 P
+X COMMON_CATHODE 2 0 300 150 D 50 50 1 1 P
+X ANODE_2 6 350 150 150 L 50 50 1 1 P
+X ANODE_3 7 350 -150 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# beetrax-components:QP1-6TO
+#
+DEF beetrax-components:QP1-6TO U 0 0 Y Y 1 F N
+F0 "U" -250 350 50 H V C CNN
+F1 "beetrax-components:QP1-6TO" 250 -300 50 H V C CNN
+F2 "" 50 0 50 H I C CNN
+F3 "" 50 0 50 H I C CNN
+DRAW
+C 0 0 255 0 1 0 f
+P 2 0 1 0 -100 -50 -100 50 N
+P 2 0 1 0 -50 100 50 100 N
+P 2 0 1 0 0 0 -200 0 N
+P 2 0 1 0 0 0 0 -200 N
+P 2 0 1 0 0 0 0 200 N
+P 2 0 1 0 50 -100 -50 -100 N
+P 2 0 1 0 100 50 100 -50 N
+P 3 0 1 0 -150 150 0 0 200 0 N
+P 4 0 1 0 -100 0 -200 -50 -200 50 -100 0 F
+P 4 0 1 0 0 -100 -50 -200 50 -200 0 -100 F
+P 4 0 1 0 0 100 50 200 -50 200 0 100 F
+P 4 0 1 0 200 50 200 -50 100 0 200 50 F
+X Anode_A 1 0 400 200 D 50 50 1 1 P
+X Anode_B 2 400 0 200 L 50 50 1 1 P
+X Anode_C 3 0 -400 200 U 50 50 1 1 P
+X Anode_D 4 -400 0 200 R 50 50 1 1 P
+X Cathode 5 -350 150 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# beetrax-pcb2-rescue:R
+#
+DEF beetrax-pcb2-rescue:R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "beetrax-pcb2-rescue:R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins:0015912120
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins:0015912120 J 0 40 Y Y 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins:0015912120" 0 400 60 H V C CNN
+F2 "digikey-footprints:PinHeader_2x6_P2.54mm_Vertical_SMD" 200 200 60 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" 200 300 60 H I L CNN
+F4 "WM17452-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "0015912120" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/molex-connector-corporation/0015912120/WM17452-ND/614768" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER 12POS .100 VERT TIN" 200 1000 60 H I L CNN "Description"
+F11 "Molex Connector Corporation" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -100 250 100 -350 0 1 0 N
+X ~ 1 -200 200 100 R 50 50 1 1 P
+X ~ 10 200 -200 100 L 50 50 1 1 P
+X ~ 11 -200 -300 100 R 50 50 1 1 P
+X ~ 12 200 -300 100 L 50 50 1 1 P
+X ~ 2 200 200 100 L 50 50 1 1 P
+X ~ 3 -200 100 100 R 50 50 1 1 P
+X ~ 4 200 100 100 L 50 50 1 1 P
+X ~ 5 -200 0 100 R 50 50 1 1 P
+X ~ 6 200 0 100 L 50 50 1 1 P
+X ~ 7 -200 -100 100 R 50 50 1 1 P
+X ~ 8 200 -100 100 L 50 50 1 1 P
+X ~ 9 -200 -200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power:GND
+#
+DEF power:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:VCC
+#
+DEF power:VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:VSS
+#
+DEF power:VSS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:VSS" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VSS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

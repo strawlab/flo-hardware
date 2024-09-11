@@ -1,0 +1,193 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:beetrax-components
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OPR5911 D1
+U 1 1 5B607681
+P 5872 3747
+F 0 "D1" H 5872 4047 50  0000 C CNN
+F 1 "OPR5911" H 5872 3497 50  0000 C CNN
+F 2 "" H 5872 3947 50  0000 C CNN
+F 3 "" H 5872 3947 50  0000 C CNN
+	1    5872 3747
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5B607790
+P 5871 3456
+F 0 "#PWR01" H 5871 3206 50  0001 C CNN
+F 1 "GND" H 5871 3306 50  0000 C CNN
+F 2 "" H 5871 3456 50  0000 C CNN
+F 3 "" H 5871 3456 50  0000 C CNN
+	1    5871 3456
+	-1   0    0    1   
+$EndComp
+$Comp
+L LT1885 U1
+U 1 1 5B6077C0
+P 4726 3246
+F 0 "U1" H 4776 3446 50  0000 C CNN
+F 1 "LT1885" H 4876 3046 50  0000 C CNN
+F 2 "" H 4676 3346 50  0000 C CNN
+F 3 "" H 4776 3446 50  0000 C CNN
+	1    4726 3246
+	-1   0    0    1   
+$EndComp
+$Comp
+L LT1885 U1
+U 2 1 5B607959
+P 4726 4222
+F 0 "U1" H 4776 4422 50  0000 C CNN
+F 1 "LT1885" H 4876 4022 50  0000 C CNN
+F 2 "" H 4676 4322 50  0000 C CNN
+F 3 "" H 4776 4422 50  0000 C CNN
+	2    4726 4222
+	-1   0    0    1   
+$EndComp
+$Comp
+L LT1885 U1
+U 3 1 5B607AED
+P 6850 3250
+F 0 "U1" H 6900 3450 50  0000 C CNN
+F 1 "LT1885" H 7000 3050 50  0000 C CNN
+F 2 "" H 6800 3350 50  0000 C CNN
+F 3 "" H 6900 3450 50  0000 C CNN
+	3    6850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5B607DF8
+P 4635 2855
+F 0 "R2" V 4715 2855 50  0000 C CNN
+F 1 "R" V 4635 2855 50  0000 C CNN
+F 2 "" V 4565 2855 50  0000 C CNN
+F 3 "" H 4635 2855 50  0000 C CNN
+	1    4635 2855
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5B607F6D
+P 4630 3835
+F 0 "R1" V 4710 3835 50  0000 C CNN
+F 1 "R" V 4630 3835 50  0000 C CNN
+F 2 "" V 4560 3835 50  0000 C CNN
+F 3 "" H 4630 3835 50  0000 C CNN
+	1    4630 3835
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5B607FA4
+P 6940 3650
+F 0 "R3" V 7020 3650 50  0000 C CNN
+F 1 "R" V 6940 3650 50  0000 C CNN
+F 2 "" V 6870 3650 50  0000 C CNN
+F 3 "" H 6940 3650 50  0000 C CNN
+	1    6940 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5B607FD5
+P 6950 4625
+F 0 "R4" V 7030 4625 50  0000 C CNN
+F 1 "R" V 6950 4625 50  0000 C CNN
+F 2 "" V 6880 4625 50  0000 C CNN
+F 3 "" H 6950 4625 50  0000 C CNN
+	1    6950 4625
+	0    1    1    0   
+$EndComp
+$Comp
+L LT1885 U1
+U 4 1 5B607BAE
+P 6850 4200
+F 0 "U1" H 6900 4400 50  0000 C CNN
+F 1 "LT1885" H 7000 4000 50  0000 C CNN
+F 2 "" H 6800 4300 50  0000 C CNN
+F 3 "" H 6900 4400 50  0000 C CNN
+	4    6850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5520 3900 5440 3900
+Wire Wire Line
+	5440 3900 5440 4120
+Wire Wire Line
+	5440 4120 5030 4120
+Wire Wire Line
+	6225 3595 6550 3595
+Wire Wire Line
+	6550 3350 6550 3650
+Wire Wire Line
+	6225 3895 6280 3895
+Wire Wire Line
+	6280 3895 6280 4300
+Wire Wire Line
+	6280 4300 6550 4300
+Wire Wire Line
+	7150 3250 7150 3650
+Wire Wire Line
+	7150 3650 7090 3650
+Wire Wire Line
+	7150 4200 7150 4625
+Wire Wire Line
+	7150 4625 7105 4625
+Wire Wire Line
+	6550 3650 6790 3650
+Connection ~ 6550 3595
+Wire Wire Line
+	6805 4630 6350 4630
+Wire Wire Line
+	6350 4630 6350 4300
+Connection ~ 6350 4300
+Connection ~ 5875 3460
+Wire Wire Line
+	5525 3600 5525 3150
+Wire Wire Line
+	5525 3150 5025 3150
+$EndSCHEMATC

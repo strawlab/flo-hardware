@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name beetrax-pcb2)(type KiCad)(uri /home/straw/src/beetrax/beetrax-pcb2)(options "")(descr ""))
+)

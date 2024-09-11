@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_RCBG
+D Common Cathode RGB LED
+K RGB LED
+$ENDCMP
+#
+$CMP QUAD_PHOTODIODE
+D Quad Photodiode w/ Common Cathode
+K Quad Photodiode
+$ENDCMP
+#
+#End Doc Library

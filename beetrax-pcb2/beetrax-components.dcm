@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP QP1-6TO
+D First Sensor QP1-6 TO
+K quad photodiode
+$ENDCMP
+#
+#End Doc Library
