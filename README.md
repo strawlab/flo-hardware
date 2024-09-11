@@ -2,7 +2,9 @@
 
 **ℹ️ The main FLO repository is at https://github.com/strawlab/flo ℹ️**.
 
-This repository hosts hardware design files and other large, binary files.
+This repository hosts build instructions and manual for the FLO Bring Your Own
+(BYO) camera insect tracking/filming. Included are hardware design files and other large,
+binary files.
 
 FLO is a method for videography using a camera system that automatically moves
 to follow the subject.
