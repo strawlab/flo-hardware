@@ -1,5 +1,7 @@
 # Fast-Lock-On (FLO) hardware
 
+[![DOI](https://zenodo.org/badge/705754153.svg)](https://zenodo.org/doi/10.5281/zenodo.13757196)
+
 **ℹ️ The main FLO repository is at https://github.com/strawlab/flo ℹ️**.
 
 This repository hosts build instructions and manual for the FLO Bring Your Own
