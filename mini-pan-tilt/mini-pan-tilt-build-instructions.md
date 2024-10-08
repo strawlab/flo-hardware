@@ -20,9 +20,9 @@ All parts but one, the custom 3D-printed support bracket _(CAD file included)_ a
 
 - 1x [Thorlabs base plate 150x150x12.7 mm, M6 Taps](https://www.thorlabs.de/thorproduct.cfm?partnumber=MB1515/M) +
 
-- 1x custom 3D printed support bracket (include file)
+- 1x [custom 3D printed support bracket](motor_holder.stl)
 
-- 1x Basler Tripod Adapter, compatible with camera (see [below](#optical), e.g. [this one](https://www.edmundoptics.eu/p/ace2-14-tripod-mount-adapter/44087/)). Alternatively, there is also a 3D [printed version](linktofile) of this part. (inlude link
+- 1x Basler Tripod Adapter, compatible with camera (see [below](#optical), e.g. [this one](https://www.edmundoptics.eu/p/ace2-14-tripod-mount-adapter/44087/)). Alternatively, there is also a 3D [printed version](a2A1920_adapter_6mm.stl) of this part.
   )
 - assorted screws
 
