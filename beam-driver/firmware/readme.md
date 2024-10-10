@@ -10,6 +10,11 @@ the `.uf2` file here.
 Source code: [repo "flo", commit c64758fc95ba7cb73e0c1d8a02bef2db8ca351d4 "Merge branch 'firmware-beamdriver'"](https://github.com/strawlab/flo/tree/c64758fc95ba7cb73e0c1d8a02bef2db8ca351d4/firmware/beamdriver)
 
 Characteristics:
-* 150 fps
-* lowest latency and jitter (~0.5us)
-* no helpful led indication
+
+- 150 fps
+- lowest latency and jitter (~0.5us)
+- no helpful led indication
+
+### beamdriver-100Hz.uf2
+
+Same source as above, compiled with `FRAMERATE` set to 100.0.
